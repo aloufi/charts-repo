@@ -1,0 +1,93 @@
+apiVersion: v1
+entries:
+  dependencies-v1:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-04-10T11:45:36.945550459Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com
+      version: 10.5.13
+    description: Chart to test dependencies
+    digest: b8f364adbaea7badae8c351cefb0c2330a55ba39070c044a6ca08523c56bd368
+    home: https://github.com/helm/charts-repo-actions-demo
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: dependencies-v1
+    sources:
+    - https://github.com/helm/charts-repo-actions-demo
+    urls:
+    - https://github.com/aloufi/charts-repo/releases/download/dependencies-v1-0.1.2/dependencies-v1-0.1.2.tgz
+    version: 0.1.2
+  dependencies-v2:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2020-04-10T11:45:37.022756275Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com
+      version: 10.5.13
+    description: Chart to test dependencies
+    digest: 79865206c2fb2db3e3fd239788f73e886c3d6d3411d47d1e21e237ec6be6856c
+    home: https://github.com/helm/charts-repo-actions-demo
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: dependencies-v2
+    sources:
+    - https://github.com/helm/charts-repo-actions-demo
+    urls:
+    - https://github.com/aloufi/charts-repo/releases/download/dependencies-v2-0.1.2/dependencies-v2-0.1.2.tgz
+    version: 0.1.2
+  example-v1:
+  - apiVersion: v1
+    appVersion: "3.9"
+    created: "2020-04-10T11:45:37.096829827Z"
+    description: Deploy a basic Alpine Linux pod
+    digest: 9e2500499ae3430fe815ecefb4e0e109c0f11b6ade5bfbe1b2f617cde00ac741
+    home: https://helm.sh/helm
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: example-v1
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/aloufi/charts-repo/releases/download/example-v1-0.1.5/example-v1-0.1.5.tgz
+    version: 0.1.5
+  example-v2:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2020-04-10T11:45:37.174044464Z"
+    description: A Helm chart for Kubernetes
+    digest: dfa14f831f517ef23fd3d1caaf77bbb508b43186218780833bcf544201ef8ece
+    home: https://helm.sh/helm
+    maintainers:
+    - email: email@example.com
+      name: Name
+    name: example-v2
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/aloufi/charts-repo/releases/download/example-v2-0.2.2/example-v2-0.2.2.tgz
+    version: 0.2.2
+  spring-chart:
+  - apiVersion: v2
+    appVersion: v1.0-6-gd008565.dirty
+    created: "2020-04-10T11:45:37.237764865Z"
+    description: A Helm chart for Kubernetes
+    digest: f95da5f55ce84238e61f434f22db146abc6cf6d683bd964f6117302c53301c52
+    home: https://helm.sh/helm
+    maintainers:
+    - email: aloufi.me@gmail.com
+      name: khalid
+    name: spring-chart
+    sources:
+    - https://github.com/helm/helm
+    urls:
+    - https://github.com/aloufi/charts-repo/releases/download/spring-chart-0.2.2/spring-chart-0.2.2.tgz
+    version: 0.2.2
+generated: "2020-04-10T11:45:36.849365141Z"
