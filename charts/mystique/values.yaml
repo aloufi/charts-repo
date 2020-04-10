@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: asia.gcr.io/cloud-paas-272914/spring-helm
   # v1.0-6-gd008565.dirty
-  #tag: v1.0-6-gd008565.dirty
+  # tag: v1.0-6-gd008565.dirty
   pullPolicy: Always
 
 imagePullSecrets: []
