@@ -4,7 +4,7 @@ description: A Helm chart for Kubernetes
 home: https://helm.sh/helm
 maintainers:
   - email: aloufi.me@gmail.com
-    name: Khalid Aloufi
+#    name: Khalid Aloufi
 name: spring-chart
 sources:
   - https://github.com/helm/helm
